@@ -58,6 +58,17 @@
                 >
                 <Image Source="Assets\pointer.png"/>
             </Button>
+            <Button
+                x:Name="selectResizer"
+                Width="25"
+                Height="25"
+                Grid.Row="1"
+                Grid.Column="1"
+                Click="selectResizer_Click"
+                Background="LightGray"
+                >
+                <Image Source="Assets\resize.png"/>
+            </Button>
 
 
             <Button
